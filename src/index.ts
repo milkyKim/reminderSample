@@ -23,6 +23,18 @@ connectDB();
 // Define Routes
 app.use('/', indexRouter);
 
+// app.get("/test", (req, res) => {
+//   res.json({
+//     message: "minji Test"
+//   });
+// });
+
+// app.get("/nds", (req, res) => {
+//   res.json({
+//     message: "nds : github action Test"
+//   });
+// });
+
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
