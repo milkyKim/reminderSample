@@ -33,7 +33,23 @@
         "workingDirectory": null,
         "secrets": [
             {
-                "name": ".env",
+                "name": "JWT_SECRET",
+                "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
+            },
+            {
+                "name": "JWT_ALGO",
+                "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
+            },
+            {
+                "name": "MONGODB_URI",
+                "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
+            },
+            {
+                "name": "PORT",
+                "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
+            },
+            {
+                "name": "LOG_LEVEL",
                 "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
             }
         ],
