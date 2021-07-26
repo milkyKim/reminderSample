@@ -1,6 +1,12 @@
 {
     "ipcMode": null,
     "executionRoleArn": "arn:aws:iam::478085972821:role/ecsTaskExecutionRole",
+    "secrets": [
+        {
+          "name": ".env",
+          "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:478085972821:secret:.env-3KmUrM"
+        }
+      ],
     "containerDefinitions": [
       {
         "dnsSearchDomains": null,
