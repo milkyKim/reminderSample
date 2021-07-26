@@ -5,7 +5,7 @@ const router = express();
 
 router.get("/", (req, res) => {
     res.json({
-      message: "root url!!:)"
+      message: "root url!!:) :)"
     });
   });
 
